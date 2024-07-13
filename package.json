@@ -2,7 +2,7 @@
   "name": "erbis_form",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/AndreyBegma/erbis_form",
+  "homepage": "https://andreybegma.github.io/erbis_form/",
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.6",
     "@testing-library/jest-dom": "^5.17.0",
