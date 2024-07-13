@@ -1,0 +1,14 @@
+.user{ 
+  margin: 20px auto;
+  width: 400px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  background: #fff;
+  border-top: 7px solid #ffff55;
+  border-radius: 15px;
+  &_text{ 
+    font-size: 18px;
+  }
+}

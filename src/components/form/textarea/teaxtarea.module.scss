@@ -1,0 +1,15 @@
+.textarea {
+  margin: 20px auto;
+  transition-duration: 0.5s;
+  padding: 15px 2px 1px 8px;
+  width: 330px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1.3px solid #cccccc80;
+  resize: vertical;
+  &:focus {
+    transition-duration: 0.7s;
+    outline: none;
+    border: 1.3px solid #5577ff;
+  }
+}

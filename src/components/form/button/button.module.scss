@@ -1,0 +1,18 @@
+.btn {
+  transition-duration: 0.45s;
+  cursor: pointer;
+  width: 200px;
+  height: 40px;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 12px;
+  border: 1px solid #5577ff;
+  color: #5577ff;
+  background: none;
+  &:hover {
+    transition-duration: 0.7s;
+
+    background: #5577ff;
+    color: #fff;
+  }
+}
