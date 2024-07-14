@@ -26,7 +26,7 @@ const Form = () => {
   return (
     <form className={s.form}>
       <InputForm handleUpdate={e => handleUpdateForm("name", e.target.value)} label="Name" value={form.name} />
-      <InputForm handleUpdate={e => handleUpdateForm("mail", e.target.value)} label="Email" value={form.email} type="email" />
+      <InputForm handleUpdate={e => handleUpdateForm("email", e.target.value)} label="Email" value={form.email} type="email" />
       <TextAreaForm handleUpdate={e => handleUpdateForm("message", e.target.value)} placeholder="Write text message" value={form.message} />
       <Button handleClick={handleSendForm} text="Send" />
     </form>
